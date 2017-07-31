@@ -1,34 +1,54 @@
 html
 	head
 		title Kick it with JS Drums!
+		link(rel="icon" href="../img/favicon.ico")
 		link(rel="stylesheet" href="../css/style.css")
 	body
-		header
-			h1 Feel the rhythm in your keypresses...
+		.wrap
+			header
+				h1 Feel the rhythm in your keypresses... &#9834;
 
-		main
-			p Use these!
-			.allkeys
-				.key(data-key="65")
-					p A CLAP
-				.key(data-key="83")
-					p S HIHAT
-				.key(data-key="68")
-					p D KICK
-				.key(data-key="70")
-					p F OPENHAT
-				.key(data-key="71")
-					p G BOOM
-				.key(data-key="72")
-					p H RIDE
-				.key(data-key="74")
-					p J SNARE
-				.key(data-key="75")
-					p K TOM
-				.key(data-key="76")
-					p L TINK
+			main
+				.allkeys
+					.key(data-key="65")
+						p A 
+						span CLAP
+					.key(data-key="83")
+						p S 
+						span HIHAT
+					.key(data-key="68")
+						p D 
+						span KICK
+					.key(data-key="70")
+						p F 
+						span OPENHAT
+					.key(data-key="71")
+						p G 
+						span BOOM
+					.key(data-key="72")
+						p H 
+						span RIDE
+					.key(data-key="74")
+						p J 
+						span SNARE
+					.key(data-key="75")
+						p K 
+						span TOM
+					.key(data-key="76")
+						p L 
+						span TINK
 
-		footer
-			h5 &copy; 2017 Developed by NoerGitKat. All Rights Reserved.
+			audio(data-key="71" src="../sounds/boom.wav")
+			audio(data-key="65" src="../sounds/clap.wav")
+			audio(data-key="83" src="../sounds/hihat.wav")
+			audio(data-key="68" src="../sounds/kick.wav")
+			audio(data-key="70" src="../sounds/openhat.wav")
+			audio(data-key="72" src="../sounds/ride.wav")
+			audio(data-key="74" src="../sounds/snare.wav")
+			audio(data-key="76" src="../sounds/tink.wav")
+			audio(data-key="75" src="../sounds/tom.wav")
+
+			footer
+				h5 &copy; 2017 Developed by NoerGitKat. All Rights Reserved.
 
 		script(src="js/drums.js")
