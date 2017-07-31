@@ -1,0 +1,20 @@
+body {
+	background: url('../img/Drumkit-bg.jpg');
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.key {
+	display: inline-block;
+	border: 4px solid white;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
+.key p {
+	margin: 0 auto;
+	font-size: 14px;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "#1 Drum Kit",
+  "version": "1.0.0.",
+  "description": "This is a simple drum kit made with plain JS. IT's project #1 of Wes Bos' JavaScript 30 course.",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}
