@@ -1,4 +1,4 @@
 window.addEventListener("keydown", function(event) {
-	const audio
-	console.log(event);
-})
+	const audio = document.querySelector();
+	console.log(event.keyCode);
+});
