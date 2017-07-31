@@ -1,1 +1,1 @@
-This is a simple drum kit made with plain JS. IT's project #1 of Wes Bos' JavaScript 30 course.
+This is a simple drum kit made with plain JS. It's project #1 of Wes Bos' JavaScript 30 course.
